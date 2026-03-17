@@ -1,5 +1,8 @@
 # Ralone Recursive Framework (RRF)
-
+![Status](https://img.shields.io/badge/status-active-blue)
+![Framework](https://img.shields.io/badge/type-reasoning--evaluation-green)
+![License](https://img.shields.io/badge/license-MIT-lightgrey)
+![Stage](https://img.shields.io/badge/stage-early--benchmark-orange)
 A structured framework for evaluating reasoning quality in AI systems and human cognition.
 
 ---

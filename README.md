@@ -1,5 +1,15 @@
 # Ralone Recursive Framework (RRF)
+## Why This Exists
 
+Modern AI systems often produce outputs that appear correct but contain:
+
+- hidden logical errors  
+- unsupported claims  
+- hallucinated facts  
+
+RRF provides a structured way to detect and measure these failures.
+
+It introduces a repeatable evaluation pipeline for reasoning quality.
 A structured framework for evaluating reasoning quality in AI systems and human cognition.
 
 ---

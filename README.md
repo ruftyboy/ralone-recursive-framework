@@ -3,6 +3,41 @@
 A structured framework for evaluating reasoning quality in AI systems and human cognition.
 
 ---
+## Quick Start
+
+Evaluate any reasoning output in 5 steps:
+
+1. Choose a prompt (see `/benchmarks/`)
+2. Get a model output
+3. Apply:
+
+   * RTS (truth)
+   * RLGE (logic)
+   * RVE (verification)
+4. Score each (0–100)
+5. Compute final RRF score
+
+---
+
+### Example
+
+Prompt:
+
+> All A are B. Some B are C. Does it follow that some A are C?
+
+Weak Answer:
+
+> Yes, some A must be C.
+
+RRF Evaluation:
+
+* RTS: 40
+* RLGE: 30
+* RVE: 35
+
+Final Score: 35 → **Fail**
+
+---
 
 ## Why This Exists
 
@@ -26,7 +61,31 @@ It evaluates whether reasoning is:
 * verifiable
 
 ---
+## What Makes RRF Different
 
+Most AI evaluations measure:
+
+* fluency
+* correctness of final answer
+
+RRF focuses on:
+
+* reasoning quality
+* logical validity
+* verifiability of claims
+
+---
+
+RRF detects:
+
+* hidden logical errors
+* overconfidence
+* unsupported conclusions
+
+---
+
+It evaluates not just *what* is said — but *how it is reasoned*.
+---
 ## Core Components
 
 ### RTS — Ralone Truth Scale
@@ -102,6 +161,14 @@ RRF can compare reasoning quality across systems:
 See: `docs/model-comparison.md`
 
 ---
+## Project Structure
+
+```
+benchmarks/         # test sets (including hard tests)
+docs/               # evaluations, comparisons, protocol
+core/               # framework definitions
+metrics/            # scoring system
+```
 
 ## Philosophy
 

@@ -130,7 +130,16 @@ Validates:
 5. Compute final RRF score
 
 ---
+## Evaluation Flow
 
+RRF evaluates reasoning through three layers:
+
+* RTS → truth accuracy
+* RLGE → logical validity
+* RVE → verification
+
+See full flow: `docs/rrf-flow.md`
+---
 ## Example Tests
 
 * **Real Test 1** → pure logical reasoning

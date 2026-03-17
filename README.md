@@ -217,6 +217,8 @@ Early-stage framework with working evaluation examples and benchmark structure.
 
 Future work includes expanding test coverage and automating evaluation.
 ---
+RRF is designed to move evaluation from output correctness to reasoning integrity.
+---
 ## License
 
 MIT License

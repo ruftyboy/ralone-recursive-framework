@@ -209,7 +209,14 @@ It ensures intelligence develops with:
 Early-stage framework with working evaluation examples and benchmark structure.
 
 ---
+## Limitations
 
+* small number of test cases (early-stage benchmark)
+* partial reliance on manually constructed evaluations
+* limited real-model comparisons
+
+Future work includes expanding test coverage and automating evaluation.
+---
 ## License
 
 MIT License

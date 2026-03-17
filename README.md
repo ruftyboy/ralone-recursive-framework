@@ -1,31 +1,29 @@
 # Ralone Recursive Framework (RRF)
-> A framework for evaluating reasoning in AI systems beyond surface-level correctness.
-## Why This Exists
 
-Modern AI systems often produce outputs that appear correct but contain:
-
-- hidden logical errors  
-- unsupported claims  
-- hallucinated facts  
-
-RRF provides a structured way to detect and measure these failures.
-
-It introduces a repeatable evaluation pipeline for reasoning quality.
 A structured framework for evaluating reasoning quality in AI systems and human cognition.
 
 ---
 
-## Overview
+## Why This Exists
 
-The Ralone Recursive Framework (RRF) is designed to improve reasoning by enforcing:
+Modern AI systems often produce outputs that appear correct but contain:
 
-* truth separation (fact vs inference)
-* logical consistency
-* verifiability of claims
-* measurable evaluation
+* hidden logical errors
+* unsupported claims
+* hallucinated facts
 
-RRF does not generate intelligence —
-it ensures intelligence remains correct, stable, and grounded.
+RRF provides a structured way to detect and measure these failures.
+
+---
+
+## Core Idea
+
+RRF does not generate intelligence.
+It evaluates whether reasoning is:
+
+* correct
+* logically consistent
+* verifiable
 
 ---
 
@@ -33,67 +31,92 @@ it ensures intelligence remains correct, stable, and grounded.
 
 ### RTS — Ralone Truth Scale
 
-Separates fact, inference, and uncertainty.
+Separates:
+
+* fact
+* inference
+* uncertainty
+
+---
 
 ### RLGE — Ralone Logic Grounding Engine
 
-Ensures reasoning chains remain logically valid.
+Ensures:
+
+* valid reasoning chains
+* no contradictions
+* correct conclusions
+
+---
 
 ### RVE — Ralone Verification Engine
 
-Validates claims against evidence and consistency.
+Validates:
+
+* claims against evidence
+* real-world consistency
+* traceability of reasoning
 
 ---
 
-## Framework Structure
+## How It Works
 
-* `core/` → system definitions
-* `benchmarks/` → reasoning test cases
-* `metrics/` → evaluation scoring
-* `docs/` → usage, flow, and examples
-
----
-
-## Example Workflow
-
-1. Input a reasoning task
+1. Input a prompt
 2. Generate output (AI or human)
 3. Apply RTS, RLGE, RVE
-4. Score using defined metrics
-5. Compare against benchmarks
+4. Score each dimension
+5. Compute final RRF score
 
 ---
 
-## Goals
+## Example Tests
 
-* Reduce hallucinations
-* Improve reasoning accuracy
-* Enable measurable evaluation
-* Maintain speed without sacrificing safety
+* **Real Test 1** → pure logical reasoning
+* **Real Test 2** → context-sensitive reasoning
+
+See: `/docs/`
 
 ---
 
-## Status
+## Benchmark Results
 
-Early-stage framework.
+RRF clearly separates strong vs weak reasoning:
 
-Currently focused on:
+| Test    | Strong Output | Weak Output |
+| ------- | ------------- | ----------- |
+| Logic   | 100           | 68.3        |
+| Context | 100           | 21.6        |
 
-* defining core modules
-* building evaluation structure
-* testing reasoning benchmarks
+See: `docs/benchmark-results.md`
+
+---
+
+## Model Comparison
+
+RRF can compare reasoning quality across systems:
+
+* detects overconfidence
+* identifies logical failure points
+* highlights verifiability issues
+
+See: `docs/model-comparison.md`
 
 ---
 
 ## Philosophy
 
 RRF does not restrict intelligence.
-
 It ensures intelligence develops with:
 
 * integrity
 * stability
 * verifiability
+
+---
+
+## Status
+
+Early-stage framework with working evaluation examples and benchmark structure.
 
 ---
 

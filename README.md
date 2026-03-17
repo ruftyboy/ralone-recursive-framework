@@ -1,4 +1,5 @@
 # Ralone Recursive Framework (RRF)
+> A framework for evaluating reasoning in AI systems beyond surface-level correctness.
 ## Why This Exists
 
 Modern AI systems often produce outputs that appear correct but contain:

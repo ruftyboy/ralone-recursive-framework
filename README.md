@@ -4,7 +4,7 @@
 ![License](https://img.shields.io/badge/license-MIT-lightgrey)
 ![Stage](https://img.shields.io/badge/stage-early--benchmark-orange)
 A structured framework for evaluating reasoning quality in AI systems and human cognition.
-
+RRF evaluates not just correctness — but how reasoning is formed, validated, and verified.
 ---
 ## Quick Start
 

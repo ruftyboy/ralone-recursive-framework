@@ -1,115 +1,91 @@
 # Ralone Recursive Framework (RRF)
 
+A structured framework for evaluating reasoning quality in AI systems and human cognition.
+
+---
+
 ## Overview
 
-Ralone Recursive Framework (RRF) is a structured system for improving and stabilizing intelligence through:
+The Ralone Recursive Framework (RRF) is designed to improve reasoning by enforcing:
 
-- truth integrity
-- logical consistency
-- verification
-- uncertainty awareness
-- controlled reasoning
+* truth separation (fact vs inference)
+* logical consistency
+* verifiability of claims
+* measurable evaluation
 
-The framework is designed to support both:
-
-- **progress** (better intelligence performance)
-- **safety** (reduction of failure and instability)
+RRF does not generate intelligence —
+it ensures intelligence remains correct, stable, and grounded.
 
 ---
 
-## Core Principle
+## Core Components
 
-> Intelligence that loses truth, logic, or verification is not progress.
+### RTS — Ralone Truth Scale
 
-RRF ensures that intelligence systems scale **without collapse** in:
+Separates fact, inference, and uncertainty.
 
-- truth
-- reasoning
-- memory
-- confidence
+### RLGE — Ralone Logic Grounding Engine
 
----
+Ensures reasoning chains remain logically valid.
 
-## Why This Exists
+### RVE — Ralone Verification Engine
 
-Modern AI systems face recurring problems:
-
-- hallucination (false confident outputs)
-- inconsistent reasoning
-- weak verification
-- overconfidence under uncertainty
-
-RRF provides a modular structure to address these issues.
+Validates claims against evidence and consistency.
 
 ---
 
-## Core Modules
+## Framework Structure
 
-### RTS — Truth Scale
-Measures and enforces truth integrity.
-
-### RVE — Verification Engine
-Validates outputs against factual and structural correctness.
-
-### RLGE — Logic Grounding Engine
-Ensures reasoning remains logically valid and coherent.
+* `core/` → system definitions
+* `benchmarks/` → reasoning test cases
+* `metrics/` → evaluation scoring
+* `docs/` → usage, flow, and examples
 
 ---
 
-## Framework Goals
+## Example Workflow
 
-- Improve reasoning accuracy  
-- Reduce hallucinations  
-- Increase output reliability  
-- Enable measurable evaluation  
-- Provide safety without slowing progress  
-
----
-
-## Design Philosophy
-
-RRF does not aim to restrict intelligence.
-
-It aims to ensure that intelligence develops with:
-
-- integrity  
-- stability  
-- verifiability  
+1. Input a reasoning task
+2. Generate output (AI or human)
+3. Apply RTS, RLGE, RVE
+4. Score using defined metrics
+5. Compare against benchmarks
 
 ---
 
-## Structure
-core/
-rts.md
-rve.md
-rlge.md
+## Goals
 
-Each module includes:
-
-- purpose  
-- progress function  
-- safety function  
-- observable signals  
-- metrics  
-- benchmark tasks  
-- failure modes  
-- tripwires  
+* Reduce hallucinations
+* Improve reasoning accuracy
+* Enable measurable evaluation
+* Maintain speed without sacrificing safety
 
 ---
 
 ## Status
 
-Early-stage framework.  
+Early-stage framework.
+
 Currently focused on:
 
-- defining core modules  
-- adding measurable metrics  
-- building evaluation structure  
+* defining core modules
+* building evaluation structure
+* testing reasoning benchmarks
+
+---
+
+## Philosophy
+
+RRF does not restrict intelligence.
+
+It ensures intelligence develops with:
+
+* integrity
+* stability
+* verifiability
 
 ---
 
 ## License
 
 MIT License
-
-## Structure

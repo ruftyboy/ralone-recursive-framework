@@ -21,6 +21,17 @@ Evaluate any reasoning output in 5 steps:
 5. Compute final RRF score
 
 ---
+## Use Cases
+
+RRF can be used for:
+
+* evaluating AI model reasoning quality
+* detecting hallucinations and logical errors
+* comparing models beyond surface-level accuracy
+* building reasoning benchmarks
+* analyzing decision-making systems
+
+---
 
 ### Example
 

@@ -1,5 +1,8 @@
 # Generated Tests — Batch 3 (Advanced Reasoning)
 
+See evaluation: ../docs/generated-tests-3-evaluation.md
+
+---
 ## Test 1 — Hidden Contradiction
 
 ### Prompt
